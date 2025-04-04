@@ -25,7 +25,6 @@ createRoot(document.getElementById("root")!).render(
           <AppRoutes />
         </Auth0ProviderWithNavigate>
       </QueryClientProvider>
-      <AppRoutes />
     </Router>
   </StrictMode>
 );
