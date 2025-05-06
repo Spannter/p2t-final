@@ -17,7 +17,7 @@ export const useCreateMyUser = () => {
         API_BASE_URL}/api/my/user`, {
             method: "POST",
             headers:{
-                Authorizatoin: `Bearer ${accessToken}`,
+                Authorization: `Bearer ${accessToken}`,
                 "Content-Type": "application/json",
             },
             body:JSON.stringify(user),
